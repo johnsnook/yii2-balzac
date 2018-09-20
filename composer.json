@@ -1,0 +1,21 @@
+{
+    "name": "johnsnook/yii2-balzac",
+    "description": "A Yii2 module extension for graphical backend administration of a database data model",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," data model"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "John Michael Snook",
+            "email": "jsnook@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "johnsnook\\balzac\\": ""
+        }
+    }
+}
